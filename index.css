@@ -1,0 +1,85 @@
+
+body {
+    font-family: sans-serif;
+} 
+
+.container {
+    width: 90%;
+    border: 0.5px solid darkgray;
+    padding: 25px;
+    margin: 100 auto;
+} 
+
+button {
+    width: 100%;
+}
+a {
+    color: royalblue;
+    text-decoration: none;
+    margin: 5%;
+} 
+
+form {
+    border: 1px solid lightgrey;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 6.3%;
+}
+img {
+    max-width: 100%;
+} 
+
+.logo{
+    align-items: center;
+    margin-left: 34%;
+}
+
+
+body {
+    margin-left: 35%;
+    margin-right:35%;
+    height:100%;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+input {
+    width: 100%;
+} 
+
+input:focus {
+    box-shadow: 10px 10px 10px orange;
+} 
+
+#SignInButton {
+    background-color: yellow;
+    display: block;
+} 
+
+.line {
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 0.0em;
+} 
+
+.lighttext {
+    color: darkgray;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+#CreateAccount {
+    background-color: gray;
+    display: block;
+} 
+
+@media screen and (max-width: 1024px) {    
+    input {
+        width: 50%;
+    }
+    
+}
